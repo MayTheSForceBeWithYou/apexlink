@@ -1,6 +1,7 @@
-import { jest, expect } from '@jest/globals';
+import { describe, expect, it } from '@jest/globals';
 import { ConsoleLogger } from '@flxbl-io/sfp-logger';
 import ApexDepedencyCheckImpl from '../src/ApexDepedencyCheckImpl';
+
 import path from 'path';
 
 describe('Given a directory with apex classes, ',  () => {

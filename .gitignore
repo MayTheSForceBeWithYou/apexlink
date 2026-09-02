@@ -1,4 +1,6 @@
 coverage
 node_modules
 lib
+tsconfig.tsbuildinfo
+*.tgz
 jars/.DS_Store
