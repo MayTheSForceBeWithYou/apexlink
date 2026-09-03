@@ -1,6 +1,6 @@
 {
   "name": "@n8codes/apexlink",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Thin Node invoker for @apex-dev-tools/apex-ls, delivered as a JAR",
   "author": "n8codes",
   "homepage": "https://github.com/MayTheSForceBeWithYou/apexlink#readme",
@@ -17,7 +17,7 @@
     "README.md"
   ],
   "dependencies": {
-    "@flxbl-io/sfp-logger": "^5.0.1",
+    "@n8codes/sfp-logger": "^5.0.1",
     "@n8codes/sfdx-process-wrapper": "^4.0.0",
     "find-java-home": "^2.0.0",
     "fs-extra": "^11.3.1"
@@ -35,6 +35,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MayTheSForceBeWithYou/apexlink.git"
+  },
+  "overrides": {
+    "@flxbl-io/sfp-logger": "npm:@n8codes/sfp-logger@5.0.1"
   },
   "publishConfig": {
     "access": "public",
